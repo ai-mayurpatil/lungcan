@@ -1,19 +1,7 @@
-from cgi import test
-from email.mime import image
-import imp
-from pyexpat import model
-from unittest import result
-import streamlit as st
-from PIL import Image, ImageOps
-
-import tensorflow as tf
-import numpy as np
-from tensorflow.keras import preprocessing
-from tensorflow.keras.models import load_model
-from tensorflow.keras.activations import softmax
-import os
-import h5py
 import cv2
+import numpy as np
+import streamlit as st
+import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
 
