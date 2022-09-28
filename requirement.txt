@@ -1,13 +1,4 @@
-cgi
-email
-imp
-pyexpat
-unittest
-streamlit
-PIL
-matplotlib
-tensorflow
-numpy
-pandas 
-h5py
 cv2
+numpy
+streamlit
+tensorflow
