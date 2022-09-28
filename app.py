@@ -107,5 +107,5 @@ if uploaded_file is not None:
 #     result = "The image uploaded is: {}".format(image_class)
 #     return result
 
-# if __name__ == "__Home__":
-#     main()                
+ if __name__ == "__main__":
+     main()                
